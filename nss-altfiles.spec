@@ -18,7 +18,7 @@ NSS module for reading user information from /usr/etc/ instead of /etc/
 
 
 %build
-%configure
+%configure --datadir=/usr/local/etc
 make 
 
 
